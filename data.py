@@ -16,7 +16,7 @@ for i in range(test_n):
 	Y_test[i] = np.sum(X_test[i])%2
 
 
-X_train.sort()
+X_train.sort()# Adding or removing these lines make all the difference in the observations.
 X_test.sort()
 
 def get_data():
